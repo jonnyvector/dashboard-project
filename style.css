@@ -53,12 +53,26 @@ li {
   display: grid;
   background-color: #e2e8f0;
   grid-area: 2 / 1 / 7 / 4;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 40%;
 }
 
 .content-left {
-  display: grid;
-  grid-template-columns: repeat(2 (1fr, 1fr));
-  grid-template-rows: repeat(3 (1fr, 1fr));
+  grid-area: 1/1/4/3;
+  border: 3px solid black;
+}
+
+.content-right {
+  grid-area: 4/3/4/4;
   border: 1px solid black;
 }
 
@@ -174,4 +188,19 @@ div.top-right > * {
 .side-menu-icon {
   margin-right: 1rem;
   width: 2rem;
+}
+
+.project-card {
+  /* margin: 3.5rem; */
+  border: 1px solid black;
+}
+
+.card-icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.card-icons img {
+  width: 1.5rem;
 }
