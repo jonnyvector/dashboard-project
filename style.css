@@ -68,7 +68,8 @@ li {
 
 .content-left {
   grid-area: 1/1/4/3;
-  border: 3px solid black;
+  /* border: 3px solid black; */
+  padding: 1.5rem;
 }
 
 .content-right {
@@ -190,9 +191,25 @@ div.top-right > * {
   width: 2rem;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
 .project-card {
-  /* margin: 3.5rem; */
-  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: white;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  border-left: 0.5rem solid #f7f11e;
+}
+
+.project-card h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 .card-icons {
