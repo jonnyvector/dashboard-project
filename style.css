@@ -68,13 +68,20 @@ li {
 
 .content-left {
   grid-area: 1/1/4/3;
-  /* border: 3px solid black; */
   padding: 1.5rem;
 }
 
 .content-right {
-  grid-area: 4/3/4/4;
-  border: 1px solid black;
+  padding: 1.5rem;
+  grid-area: 1/3/4/4;
+  /* border: 1px solid black; */
+}
+
+.announcements-container {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 .header-container {
