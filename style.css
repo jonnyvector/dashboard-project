@@ -79,7 +79,32 @@ li {
 
 .announcements-container {
   background-color: white;
-  padding: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.announcement {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.announcement h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.announcement p {
+  margin: 0;
+  color: rgb(118, 118, 118);
+  font-size: 0.8rem;
+}
+
+.trending-container {
+  background-color: white;
+  padding: 1rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
@@ -219,6 +244,10 @@ div.top-right > * {
   font-size: 1.25rem;
 }
 
+.project-card p {
+  color: rgb(118, 118, 118);
+}
+
 .card-icons {
   display: flex;
   align-items: center;
@@ -227,4 +256,20 @@ div.top-right > * {
 
 .card-icons img {
   width: 1.5rem;
+}
+
+.trending {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.trending img {
+  padding-right: 0.5rem;
+  width: 4rem;
+}
+
+.trending p {
+  color: rgb(118, 118, 118);
+  font-size: 0.8rem;
 }
